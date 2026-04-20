@@ -4,15 +4,19 @@ Este proyecto contiene una serie de scripts desarrollados en un entorno de Jupyt
 Contenido del Proyecto:
 El flujo de trabajo se divide en las siguientes etapas principales:
 
+0. Importacion de librerias a usar
+
 1. Ecualización Local de Histograma: Mejora del contraste de las imágenes originales.
 
-2.Filtrado y Segmentación: Aplicación de filtros para reducir ruido y umbralización para binarizar la imagen.
+2. Correccion Multiple Choice: Filtrado y Segmentación: Aplicación de filtros para reducir ruido y umbralización para binarizar la imagen.
 
-3.Detección de Grillas y Marcas: Identificación de los cuadros de respuesta y detección de las opciones marcadas (A, B, C, D).
+2.A. Preguntas Correctas e Incorrectas: Detección de Grillas y Marcas: Identificación de los cuadros de respuesta y detección de las opciones marcadas (A, B, C, D).
 
-4.Validación de Encabezados: Verificación de campos obligatorios como Nombre, Fecha y Clase.
+2.B. Validación de Datos de Encabezados: Verificación de campos obligatorios como Nombre, Fecha y Clase.
 
-5.Calificación: Generación de un resumen de notas basado en las respuestas detectadas.
+2.C. Evaluacion de Imagenes: Informe de evaluacion de Examenes
+
+2.D. Alumnos Calificados: Calificación: Generación de un resumen de notas basado en las respuestas detectadas.
 
 Requisitos:
 Para ejecutar este código, necesitas tener instalado Python 3 junto con las siguientes librerías:
